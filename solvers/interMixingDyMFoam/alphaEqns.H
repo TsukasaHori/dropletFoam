@@ -161,13 +161,13 @@
         alpha3 = 1.0 - alpha1 - alpha2;
         alpha3.max(0.0);
         
-        volScalarField sumAlpha = alpha1 + alpha2 + alpha3;
+        tmp<volScalarField> sumAlpha = alpha1 + alpha2 + alpha3;
         alpha1 /= sumAlpha;
         alpha2 /= sumAlpha;
         alpha3 /= sumAlpha;
         
         Info<< "Total phase volume fraction = "
-            << sumAlpha.weightedAverage(mesh.V()).value()
+            << sumAlpha->weightedAverage(mesh.V()).value()
             << "  Min(sumAlpha) = " << min(sumAlpha).value()
             << "  Max(sumAlpha) = " << max(sumAlpha).value()
             << endl;

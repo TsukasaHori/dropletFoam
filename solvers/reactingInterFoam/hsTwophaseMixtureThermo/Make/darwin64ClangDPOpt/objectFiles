@@ -1,0 +1,8 @@
+OBJECTS = \
+$(OBJECTS_DIR)/subSpecie.o\
+$(OBJECTS_DIR)/phase.o\
+$(OBJECTS_DIR)/mixturePhaseChangeModel.o\
+$(OBJECTS_DIR)/newMixturePhaseChangeModel.o\
+$(OBJECTS_DIR)/LangmuirEvaporation.o\
+$(OBJECTS_DIR)/PhaseChangeReaction.o\
+$(OBJECTS_DIR)/hsNewReactionThermos.o

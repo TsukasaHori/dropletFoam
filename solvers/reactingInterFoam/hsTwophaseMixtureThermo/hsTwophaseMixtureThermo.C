@@ -307,8 +307,8 @@ Foam::hsTwophaseMixtureThermo<MixtureType>::hsTwophaseMixtureThermo
         mesh,
         dimensionedScalar("rho*phi", dimMass/dimTime, 0.0)
     ),
-    phi_( rhoPhi_.db().lookupObject<surfaceScalarField>("phi") ),
-    U_( rhoPhi_.db().lookupObject<volVectorField>("U") ),
+    phi_( rhoPhi_.db().template lookupObject<surfaceScalarField>("phi") ),
+    U_( rhoPhi_.db().template lookupObject<volVectorField>("U") ),
     divPhaseChange_
     (
         IOobject

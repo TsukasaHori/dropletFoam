@@ -928,7 +928,7 @@ Foam::tmp<Foam::surfaceScalarField> Foam::phase::solveSubSpecies
         
            
     //Arbitrary diagonal term for cells outside normal region
-    volScalarField Sp = (1.0 - cellMask_)*rho(p,T)/mesh().time().deltaT();
+    tmp<volScalarField> Sp = (1.0 - cellMask_)*rho(p,T)/mesh().time().deltaT();
     
     // Create a container to add up diffusion-driven energy flux
     tmp<surfaceScalarField> tDgradYCp

@@ -56,7 +56,7 @@
     phi = phiHbyA + phiForces;
     
     // DpDt term, uses phiEst based on buoyantPimpleFoam pEqn.H
-    fvScalarMatrix p_rghDDtEqn = 
+    tmp<fvScalarMatrix> p_rghDDtEqn = 
     (
         fvm::ddt(p_rgh)
       + fvc::div(phi, p_rgh)

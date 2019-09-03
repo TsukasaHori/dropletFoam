@@ -1,0 +1,3 @@
+SOURCE = \
+viscosityModels/NewtonianPolynomial/NewtonianPolynomial.C\
+reactingInterFoam.C

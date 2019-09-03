@@ -1,0 +1,8 @@
+LOCAL_OBJECTS = \
+subSpecie.o\
+phase.o\
+mixturePhaseChangeModel.o\
+newMixturePhaseChangeModel.o\
+LangmuirEvaporation.o\
+PhaseChangeReaction.o\
+hsNewReactionThermos.o

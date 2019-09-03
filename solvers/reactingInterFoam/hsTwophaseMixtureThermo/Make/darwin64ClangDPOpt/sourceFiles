@@ -1,0 +1,8 @@
+SOURCE = \
+subSpecie/subSpecie.C\
+phase/phase.C\
+mixturePhaseChangeModels/mixturePhaseChangeModel/mixturePhaseChangeModel.C\
+mixturePhaseChangeModels/mixturePhaseChangeModel/newMixturePhaseChangeModel.C\
+mixturePhaseChangeModels/LangmuirEvaporation/LangmuirEvaporation.C\
+mixturePhaseChangeModels/PhaseChangeReaction/PhaseChangeReaction.C\
+hsNewReactionThermos.C

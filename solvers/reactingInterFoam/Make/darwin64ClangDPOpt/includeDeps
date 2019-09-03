@@ -1,0 +1,2 @@
+include viscosityModels/NewtonianPolynomial/NewtonianPolynomial.dep
+include reactingInterFoam.dep

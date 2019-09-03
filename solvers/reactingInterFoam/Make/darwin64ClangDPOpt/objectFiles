@@ -1,0 +1,3 @@
+OBJECTS = \
+$(OBJECTS_DIR)/NewtonianPolynomial.o\
+$(OBJECTS_DIR)/reactingInterFoam.o

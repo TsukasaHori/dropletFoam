@@ -231,9 +231,9 @@ void Foam::mixturePhaseChangeModels::LangmuirEvaporation::calculate
 
     
     // use successive averaging
-    surfaceScalarField xLf = fvc::interpolate(xL_);
+    tmp<surfaceScalarField> xLf = fvc::interpolate(xL_);
     
-    volScalarField wgts = 0.01*alphaL_.cellMask()*alphaV_.cellMask();
+    tmp<volScalarField> wgts = 0.01*alphaL_.cellMask()*alphaV_.cellMask();
     
     for( label i = 0; i < 5; ++i )
     {

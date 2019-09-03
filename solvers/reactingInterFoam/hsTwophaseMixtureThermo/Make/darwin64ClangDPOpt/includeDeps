@@ -1,0 +1,7 @@
+include subSpecie/subSpecie.dep
+include phase/phase.dep
+include mixturePhaseChangeModels/mixturePhaseChangeModel/mixturePhaseChangeModel.dep
+include mixturePhaseChangeModels/mixturePhaseChangeModel/newMixturePhaseChangeModel.dep
+include mixturePhaseChangeModels/LangmuirEvaporation/LangmuirEvaporation.dep
+include mixturePhaseChangeModels/PhaseChangeReaction/PhaseChangeReaction.dep
+include hsNewReactionThermos.dep

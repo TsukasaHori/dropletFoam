@@ -1,0 +1,8 @@
+DEPENDENCIES = \
+subSpecie/subSpecie.dep\
+phase/phase.dep\
+mixturePhaseChangeModels/mixturePhaseChangeModel/mixturePhaseChangeModel.dep\
+mixturePhaseChangeModels/mixturePhaseChangeModel/newMixturePhaseChangeModel.dep\
+mixturePhaseChangeModels/LangmuirEvaporation/LangmuirEvaporation.dep\
+mixturePhaseChangeModels/PhaseChangeReaction/PhaseChangeReaction.dep\
+hsNewReactionThermos.dep

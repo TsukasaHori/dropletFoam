@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "phase.C": "cpp",
+        "LangmuirEvaporation.C": "cpp",
+        "hsTwophaseMixtureThermo.C": "cpp"
+    }
+}
